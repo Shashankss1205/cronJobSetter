@@ -9,5 +9,7 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Call Render Endpoint
+      - name: Call Hybrid Search Endpoint
         run: curl https://hybridsearchdmp.onrender.com/
+      - name: Call Another Endpoint
+        run: curl https://another-url.com/
