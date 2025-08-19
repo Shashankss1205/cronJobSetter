@@ -13,3 +13,7 @@ jobs:
         run: curl https://hybridsearchdmp.onrender.com/
       - name: Call Another Endpoint
         run: curl https://newsearchtool.onrender.com/
+      - name: Call Yet Another Endpoint
+        run: curl https://huggingface.co/spaces/ShashankSS1205/SpanishOCR
+      - name: Call Yet 2nd Another Endpoint
+        run: curl https://spanishocr-renaissance.tiiny.site/
