@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Call Hybrid Search Endpoint
-        run: curl https://hybridsearchdmp.onrender.com/
+        run: curl https://github-discord-bot-l8yc.onrender.com/webhook
       - name: Call Another Endpoint
         run: curl https://newsearchtool.onrender.com/
       - name: Call Yet Another Endpoint
